@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Comaptible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">   
+    <!--css-->
+    <link rel="stylesheet" href="new.css">
+  <title>Sign up</title>
+</head>
+<body>
+
+    <!--Header-->
+    <header class="main-header">
+        <nav class="transparent">
+            <div class="container">
+                <div class="nav-wrapper">
+                <a href="" class="brand-logo text-darken-4">Acosta</a>
+                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i>
+                  </a>
+                   <ul class="right hide-on-med-and-down">
+                    <li>    
+                        <a href="index.html">Home</a>              
+                    </li>
+                    <li>
+                        <a href="Channels.html">Channels</a>  
+                    </li>
+                    <li>
+                        <a href="signup.html">SignUp</a>                    
+                    </li>
+                    <li>
+                    <a href="#login-modal" class="btn red modal-trigger">Login</a>
+                    <li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+
+    <!--Showcase -->
+    <div class="container Showcase">
+        <div class="row">
+            <div class="col s12 m10 offset-m1 center">
+                <h2>Be a member</h2>
+                    <br><br>
+            </div>
+        </div>
+      </div>
+            <!--Showcase -->
+  <div class="container Showcase">
+    <div class="row">
+        <div class="col s12 m10 offset-m1 center">
+            <h5>MyAcosta is now in the cloud! This means you must be signed into the Acosta network for one-click access to applications such as ATLAS, Acosta University, Concur, Motus and others to work properly. You will be prompted for your credentials if you are not logged in.
+                <br><br>
+                <a href="Learnmore.html" class="btn btn-large white purple-text">Learn More</a>
+        </div>
+    </div>
+  </div>
+</header>
+
+<!-- Section: Signup-->
+<section class="section-signup">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6">
+            <h4>Outlook Web Access (OWA)</h4>
+            <p>Access your Microsoft Outlook email, calendars and contacts while working remotely with an internet connection.</p>
+            <h4>Emergency Information</h4>
+            <p>Acosta wants to ensure the safety and well-being of each employee during a state of emergency or office closure. Current emergencies can be viewed on the Emergency Information page.</p>
+            <h4>Report An Emergency Online</h4>
+            <p>If you cannot reach your supervisor in an emergency, you may complete the online employee emergency questionnaire.</p>
+            </div>
+            <div class="col s12 m6">
+                <div class="card-panel gray lighten-4 grey-text text-darken-4 z-depth-5">
+                    <form action="">
+                        <div class="input-field">
+                            <input type="text" id="first_name">
+                            <label for="first_name">First name</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" id="Last_name">
+                            <label for="Last_name">Last name</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="email" id="email">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" id="password">
+                            <label for="password">password</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" id="company">
+                            <label for="company">Company</label>
+                        </div>
+                            <div class="input-field">
+                                <select name="" id="role">
+                                    <option value="" disabled selected>Select role</option>
+                                    <option value="employee">Employee</option>
+                                    <option value="mercahndiser">Mercahndiser</option>
+                                    <option value="others">Others</option>
+                                    <option value="student">Student</option>
+                                </select>
+                                <label for="role">Role</label>
+                        </div>
+                        <input type="text" value="Signup" class="btn btn-large red button-extend">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+   <!--Sidenav Structure-->
+   <ul id="slide-out" class="sidenav">
+    <h4 class="red-text text-darken-2 center">Acosta</h4>
+    <li>
+        <div class="divider"></div>
+    </li>
+    <li>
+        <a href="index.html">Home</a>
+    </li>
+    <li>
+        <a href="Channels.html">Channels</a>
+    </li>
+    <li>
+        <a href="signup.html">signup</a>
+    </li>
+    <li>
+        <a href="#login-modal" class="btn red modal-trigger">Login</a>
+    </li>
+   </ul>
+
+
+
+
+    <div style="height: 100px;"></div>
+
+
+
+<!-- Login Modal-->
+<div id="login-modal" class="modal">
+    <div class="modal-content">
+        <h4>Account Login</h4>
+        <p>Login to access account dashboard</p>
+        <form action="">
+            <div class="input-field">
+                <input type="email" id="email">
+                <label for="email">Email</label>
+            </div>
+            <div class="input-field">
+                <input type="password" id="passowrd">
+                <label for="password">Password</label>
+            </div>
+        </form>  
+        <div class="modal-footer">
+            <a href="@" class="modal-action modal-close btn grey">
+                <i class="material-icons icons">lock</i>Reset password
+            </a> 
+            <a href="#login-modal" class="btn red modal-trigger">Login</a> </div>  
+    </div>
+</div>
+
+
+<div style="height: 100px;"></div>
+
+<footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h3 class="red-text">Aspire. Inspire. Acosta.</h3>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2014 Copyright Text
+      <a class="grey-text text-lighten-4 right" href="#!">Careers</a>
+    </div>
+  </footer>
+
+
+       <!-- Jquesry CDN-->
+<script  src="https://code.jquery.com/jquery-3.6.1.min.js"
+integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>   
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script src="chart.js"></script>
+
+<script>
+    $(document).ready(function() {
+        //Modal Init
+        $('.modal').modal();
+        //sidenav init
+        $('.sidenav').sidenav();
+        //Carousel init
+        $('.carousel.carousel-slider').carousel({
+        fullWidth: true
+        });   
+
+        //select init
+        $('select').formSelect();
+    }) ;
+</script>
+</body>
+</html>
